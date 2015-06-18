@@ -1,0 +1,53 @@
+= Hello
+
+This is a great format
+
+== Great news
+
+Once upon a time
+
+== Too much
+skjadhsjkdh
+
+CAUTION: Caution.
+
+WARNING: Warning.
+
+WARNING: Warning.
+
+
+TIP: Tip.
+
+
+.Optional Title
+[NOTE]
+This is an example
+single-paragraph note.
+
+.Optional Title
+----
+*Listing* Block
+
+Use: code or file listings
+----
+
+
+.Optional Title
+[source,perl]
+----
+# *Source* block
+# Use: highlight code listings
+# (require `source-highlight` or `pygmentize`)
+use DBI;
+my $dbh = DBI->connect('...',$u,$p)
+    or die "connect: $dbh->errstr";
+----
+
+
+
+http://google.com Google Search email admin
+
+.Thumbnail linked to full image
+image:http://www.parksbrothers.com/wp-content/uploads/Corn.jpg[
+"My screenshot",width=128,
+link="http://www.parksbrothers.com/wp-content/uploads/Corn.jpg"]
