@@ -45,7 +45,7 @@ my $dbh = DBI->connect('...',$u,$p)
 
 
 .Optional Title
-[source,javascript]
+[source,js]
 ----
 let a = (foo) =>  {
     alert('a');
